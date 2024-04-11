@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5Mhgh4byIovFZgRy7mRr/cExH7dy/vbosr3dAuPkVn/8fbeowKpjMZTVdDBqbLeeSSHdkHYjrdspze9H5Wjh7A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marco\\Desktop\\Servidor\\Servidor\\Servidor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marco\\.nuget\\packages\\microsoft.research.sealnet\\3.6.4\\microsoft.research.sealnet.3.6.4.nupkg.sha512"
+  ],
+  "logs": []
+}

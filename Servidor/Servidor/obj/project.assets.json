@@ -1,0 +1,125 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Microsoft.Research.SEALNet/3.6.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/SEALNet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/SEALNet.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/Microsoft.Research.SEALNet.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Research.SEALNet/3.6.4": {
+      "sha512": "jjWFCqbRE+a3x+MRYYUt+DK1RoPbmyMdXmiuvKcBvNF/JHbcsaPKAH9fNm/Pa2zBevUAniD2xftgM31MxhSI0Q==",
+      "type": "package",
+      "path": "microsoft.research.sealnet/3.6.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "ThirdPartyNotices",
+        "build/Microsoft.Research.SEALNet.targets",
+        "lib/Xamarin.iOS10/SEALNet.dll",
+        "lib/Xamarin.iOS10/SEALNet.xml",
+        "lib/netstandard2.0/SEALNet.dll",
+        "lib/netstandard2.0/SEALNet.xml",
+        "microsoft.research.sealnet.3.6.4.nupkg.sha512",
+        "microsoft.research.sealnet.nuspec",
+        "runtimes/android-arm64/libsealc.so",
+        "runtimes/android-x64/libsealc.so",
+        "runtimes/ios64/libseal.a",
+        "runtimes/ios64/libsealc.a",
+        "runtimes/linux-x64/libsealc.so",
+        "runtimes/macos-x64/libsealc.dylib",
+        "runtimes/win10-x64/sealc.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Microsoft.Research.SEALNet >= 3.6.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\marco\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\marco\\Desktop\\Servidor\\Servidor\\Servidor.csproj",
+      "projectName": "Servidor",
+      "projectPath": "C:\\Users\\marco\\Desktop\\Servidor\\Servidor\\Servidor.csproj",
+      "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\marco\\Desktop\\Servidor\\Servidor\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Microsoft.Research.SEALNet": {
+            "target": "Package",
+            "version": "[3.6.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
