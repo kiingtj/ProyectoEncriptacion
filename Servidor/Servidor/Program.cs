@@ -42,7 +42,7 @@ class Servidorr
 {
     // Datos a encriptar
     var id = 1;
-    var fecha = new DateTime(2029, 4, 18);
+    var fecha = new DateOnly(2021, 4, 11);
 
     // Encriptar los datos
     var cipherSuite = Aes.Create();
@@ -69,7 +69,8 @@ class Servidorr
         var fechaEncriptada = Convert.ToBase64String(fechaEncriptadaBytes);
 
         // Concatenar las cadenas Base64 en una sola cadena JSON
-        string json = idEncriptado + "^^" + fechaEncriptada + "^^";
+        //string json = idEncriptado + "^^" + fechaEncriptada + "^^";
+        string json = id + "^^" +fecha;
 
         byte[] buffer = System.Text.Encoding.UTF8.GetBytes(json);
         response.ContentLength64 = buffer.Length;

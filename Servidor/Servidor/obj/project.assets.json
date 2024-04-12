@@ -58,11 +58,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marco\\Desktop\\Servidor\\Servidor\\Servidor.csproj",
+      "projectUniqueName": "C:\\Users\\marco\\Documents\\GitHub\\ProyectoEncriptacion\\Servidor\\Servidor\\Servidor.csproj",
       "projectName": "Servidor",
-      "projectPath": "C:\\Users\\marco\\Desktop\\Servidor\\Servidor\\Servidor.csproj",
+      "projectPath": "C:\\Users\\marco\\Documents\\GitHub\\ProyectoEncriptacion\\Servidor\\Servidor\\Servidor.csproj",
       "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marco\\Desktop\\Servidor\\Servidor\\obj\\",
+      "outputPath": "C:\\Users\\marco\\Documents\\GitHub\\ProyectoEncriptacion\\Servidor\\Servidor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -77,35 +77,46 @@ class Cliente
                                     var cipherSuite = Aes.Create();
                                     cipherSuite.Key = clave;
                                     var subcadenasBytes = new List<byte[]>();
-                                    string[] subcadenas = datosEncriptados.Split(new string[] { "==^^" }, StringSplitOptions.None);
+                                    string[] subcadenas = datosEncriptados.Split(new string[] { "^^" }, StringSplitOptions.None);
                                     var idEncriptada = subcadenas[0];
                                     var fechaEncriptada = subcadenas[1];
+                                    DateOnly date = DateOnly.ParseExact(fechaEncriptada, "dd/MM/yyyy", null);
 
-                                    byte[] idEncriptadaByte = Encoding.UTF8.GetBytes(idEncriptada);
+
+                                    await context.Response.WriteAsync($"ID: {idEncriptada}");
+                                    await context.Response.WriteAsync($"Fecha: {fechaEncriptada}");
+
+
+                                    /* byte[] idEncriptadaByte = Encoding.UTF8.GetBytes(idEncriptada);
                                     byte[] fechaEncriptadaByte = Encoding.UTF8.GetBytes(fechaEncriptada);
-
+ 
+                                    await context.Response.WriteAsync($"ID: {idEncriptadaByte}");
+                                    await context.Response.WriteAsync($"Fecha: {fechaEncriptadaByte}");*/
                                     // Generar los hashes de los datos encriptados
-                                    var hashId = GetSHA256Hash(idEncriptadaByte);
+                                    /* var hashId = GetSHA256Hash(idEncriptada);
                                     var hashFecha = GetSHA256Hash(fechaEncriptadaByte);
-
+ */
                                     // Formatear fecha actual para que coincida con el formato de fecha encriptada
-                                    var fechaActual = DateTime.Now.ToString("yyyy-MM-dd");
+                                    var fechaActual = DateOnly.FromDateTime(DateTime.Now);
+                                    await context.Response.WriteAsync($"Fecha Actual: {fechaActual}");
 
                                     // Generar el hash de la fecha actual encriptada
-                                    byte[] fechaActualBytes = Encoding.UTF8.GetBytes(fechaActual);
+                                    //byte[] fechaActualBytes = Encoding.UTF8.GetBytes(fechaActual);
 
                                     // Generar el hash de la fecha actual encriptada
-                                    var hashFechaActual = GetSHA256Hash(fechaActualBytes);
+                                    //var hashFechaActual = GetSHA256Hash(fechaActualBytes);
 
                                     // Comparar los hashes de las fechas encriptadas
-                                    var comparacion = string.Compare(hashFecha, hashFechaActual);
+                                    //var comparacion = string.Compare(fechaEncriptada, fechaActual);
+                                    var comparacion = date.CompareTo(fechaActual);
+                                    await context.Response.WriteAsync($"Comparacion: {comparacion}");
                                     if (comparacion >= 0)
                                     {
-                                        Console.WriteLine("No está caducada.");
+                                        Console.WriteLine("Clave activa");
                                     }
                                     else if (comparacion < 0)
                                     {
-                                        Console.WriteLine("Está caducada.");
+                                        Console.WriteLine("Clave caducada.");
                                     }
                                 }
                                 else

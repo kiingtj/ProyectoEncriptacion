@@ -42,7 +42,7 @@ class Program
         // Datos a encriptar
         var id = 1;
         var booleano = true;
-        var fecha = new DateTime(2024, 4, 11);
+        var fecha = new DateTime(2024, 4, 12);
 
         // Encriptar los datos
         var cipherSuite = Aes.Create();

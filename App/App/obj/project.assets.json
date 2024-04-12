@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marco\\Desktop\\App\\App\\App.csproj",
+      "projectUniqueName": "C:\\Users\\marco\\Documents\\GitHub\\ProyectoEncriptacion\\App\\App\\App.csproj",
       "projectName": "App",
-      "projectPath": "C:\\Users\\marco\\Desktop\\App\\App\\App.csproj",
+      "projectPath": "C:\\Users\\marco\\Documents\\GitHub\\ProyectoEncriptacion\\App\\App\\App.csproj",
       "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marco\\Desktop\\App\\App\\obj\\",
+      "outputPath": "C:\\Users\\marco\\Documents\\GitHub\\ProyectoEncriptacion\\App\\App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config"

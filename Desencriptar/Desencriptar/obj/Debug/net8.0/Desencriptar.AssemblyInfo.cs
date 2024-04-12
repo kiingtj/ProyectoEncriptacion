@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Desencriptar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1ccfc749c17864ec9dae17a4959c89449f29241")]
 [assembly: System.Reflection.AssemblyProductAttribute("Desencriptar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Desencriptar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

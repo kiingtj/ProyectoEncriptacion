@@ -57,11 +57,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marco\\Desktop\\Desencriptar\\Desencriptar\\Desencriptar.csproj",
+      "projectUniqueName": "C:\\Users\\marco\\Documents\\GitHub\\ProyectoEncriptacion\\Desencriptar\\Desencriptar\\Desencriptar.csproj",
       "projectName": "Desencriptar",
-      "projectPath": "C:\\Users\\marco\\Desktop\\Desencriptar\\Desencriptar\\Desencriptar.csproj",
+      "projectPath": "C:\\Users\\marco\\Documents\\GitHub\\ProyectoEncriptacion\\Desencriptar\\Desencriptar\\Desencriptar.csproj",
       "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marco\\Desktop\\Desencriptar\\Desencriptar\\obj\\",
+      "outputPath": "C:\\Users\\marco\\Documents\\GitHub\\ProyectoEncriptacion\\Desencriptar\\Desencriptar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config"
